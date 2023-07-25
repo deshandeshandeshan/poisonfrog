@@ -1,15 +1,3 @@
-Title: Poison Frog
+Logo:
 ----
-Project title:
-----
-Camera used: 
-----
-Director:
-----
-Assistant:
-----
-Lighting:
-----
-Video length:
-----
-Video embed URL:
+Frog gif:
