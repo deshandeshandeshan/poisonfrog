@@ -8,6 +8,9 @@
     </title>
 
     <?= css('assets/css/index.css') ?>
+    <?= css('assets/css/header.css') ?>
+    <?= css('assets/css/footer.css') ?>
+    <?= css('assets/css/home.css') ?>
 
 </head>
 
