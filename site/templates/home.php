@@ -1,36 +1,40 @@
 <?php snippet("header") ?>
 
-<body>
-
-    <p> Hello </p>
-
-    <ul>
+<body class="home-main">
+    <ul class="project-list">
         <?php foreach ($page->children()->listed() as $item): ?>
-            <li>
-                <h2>
+            <li class="project-list-item">
+                <h2 class="project-title">
                     <?= $item->title() ?>
                 </h2>
                 <ul>
-                    <li>
-                        <?= $item->CameraUsed() ?>
+                    <li class="project-camera-used">
+                        <p>
+                            <?= $item->CameraUsed() ?>
+                        </p>
                     </li>
-                    <li>
-                        <h3>Director</h3>
-                        <?= $item->Director() ?>
+                    <li class="project-director">
+                        <h3 class="project-director-title">Director</h3>
+                        <p class="project-director-text">
+                            <?= $item->Director() ?>
+                        </p>
                     </li>
-                    <li>
-                        <h3>Assistant</h3>
-                        <?= $item->Assistant() ?>
+                    <li class="project-assistant">
+                        <h3 class="project-assistant-title">Assistant</h3>
+                        <p class="project-assistant-text">
+                            <?= $item->Assistant() ?>
+                        </p>
                     </li>
-                    <li>
-                        <h3>Lighting</h3>
-                        <?= $item->Lighting() ?>
+                    <li class="project-lighting">
+                        <h3 class="project-lighting-title">Lighting</h3>
+                        <p class="project-lighting-text">
+                            <?= $item->Lighting() ?>
+                        </p>
                     </li>
                 </ul>
             </li>
         <?php endforeach ?>
     </ul>
-
 </body>
 
 <?php snippet("footer") ?>
