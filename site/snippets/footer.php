@@ -1,21 +1,23 @@
 <footer class="footer-container">
-    <p class="footer-company-description">Poison Frog is an Auckland based production company interested in capturing &
+    <h2 class="footer-company-description footer-company-contact-padding">Poison Frog is an Auckland based production
+        company interested in capturing &
         presenting life in unconventional
-        ways. </p>
-    <ul class="footer-list">
-        <li class="footer-list-item">
+        ways. </h2>
+    <h2 class="footer-company-contact footer-company-contact-padding">Contact</h2>
+    <ul class="footer-list footer-list-grid">
+        <li class="footer-list-item footer-item-a">
             <p class="footer-item-text">Last Updated</p>
             <p class="footer-item-text">16.08.23</p>
         </li>
-        <li class="footer-list-item">
+        <li class="footer-list-item footer-item-b">
             <p class="footer-item-text">Design</p>
             <p class="footer-item-text">Aitken Hawkens</p>
         </li>
-        <li class="footer-list-item">
+        <li class="footer-list-item footer-item-c">
             <p class="footer-item-text">Development</p>
             <p class="footer-item-text">Deshan Mclachlan</p>
         </li>
-        <li class="footer-list-item">
+        <li class="footer-list-item footer-item-d">
             <p class="footer-item-text">Poison Frog Inc.</p>
             <p class="footer-item-text">All Rights Reserved 2023</p>
         </li>
