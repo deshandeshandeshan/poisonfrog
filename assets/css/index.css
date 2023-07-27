@@ -12,6 +12,10 @@ p, h1, h2, h3 {
     color: #fff;
 }
 
+p, h1, h2, h3, body {
+    font-family: sans-serif;
+}
+
 ul, li {
     list-style: none;
 }

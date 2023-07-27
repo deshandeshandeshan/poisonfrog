@@ -15,7 +15,7 @@
 </head>
 
 <header class="header">
-    <div class="logo-container">
+    <div class="logo-container logo-content-padding">
         <img class="logo" src="content/home/PoisonFrogLogoLockup.png" alt="Frog foot illustration with text" />
     </div>
     <div class="header-text">
