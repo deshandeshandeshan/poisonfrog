@@ -3,17 +3,19 @@
 <main class="home-main">
     <ul class="project-list">
         <?php foreach ($page->children()->listed() as $item): ?>
-            <li class="project-list-item">
-                <div class="project-title-grid">
-                    <h2 class="project-title project-title-padding project-title-grid-item">
-                        <?= $item->title() ?>
-                    </h2>
-                    <p class="project-length project-length-padding project-length-grid-item">00:00:01:23</p>
+            <li class="project-list-item project-grid">
+                <div class="project-title-container">
+                    <div class="project-title-grid">
+                        <h2 class="project-title project-title-padding project-title-grid-item">
+                            <?= $item->title() ?>
+                        </h2>
+                        <p class="project-length project-length-padding project-length-grid-item">00:00:01:23</p>
+                    </div>
                 </div>
-                <ul>
-                    <li>
-                        <?= $item->VideoEmbedURL() ?>
-                    </li>
+                <div class="project-video-container">
+                    <?= $item->VideoEmbedURL() ?>
+                </div>
+                <ul class="project-details-list">
                     <li class="project-camera-used project-camera-used-padding">
                         <h3>
                             <?= $item->CameraUsed() ?>

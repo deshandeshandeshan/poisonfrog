@@ -2,8 +2,12 @@
     padding: 0 1rem 2rem;
 }
 
+.footer-company-description-padding {
+    padding-top: 15rem;
+}
+
 .footer-list {
-    padding-top: 18rem;
+    padding-top: 15rem;
 }
 
 .footer-company-contact-padding {
