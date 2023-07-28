@@ -1,3 +1,13 @@
-Logo:
+Title: Home
+
 ----
-Frog gif:
+
+Logo: 
+
+----
+
+Frog-gif: 
+
+----
+
+Uuid: VSkD83XHbuufjJqj

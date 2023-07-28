@@ -1,0 +1,20 @@
+title: project
+
+sections:
+  info:
+    type: fields
+    fields:
+      title:
+        type: text
+      cameraused:
+        type: text
+      director:
+        type: text
+      assistant:
+        type: text
+      lighting:
+        type: text
+      videolength:
+        type: text
+      videoembedurl:
+        type: text
