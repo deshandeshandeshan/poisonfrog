@@ -2,6 +2,10 @@
     padding: 0 1rem;
 }
 
+.project-list-item {
+    padding-bottom: 10rem;
+}
+
 .project-title {
     border-style: solid solid none solid;
 }
@@ -20,6 +24,10 @@
 
 .project-description-padding {
     padding-bottom: 1rem;
+}
+
+.project-title-container {
+    padding-bottom: 2rem;
 }
 
 .project-title-grid {
@@ -55,6 +63,10 @@
 @media only screen and (min-width: 50rem) {
     .home-main {
         padding: 18rem 0 0 20rem;
+    }
+
+    .project-list-item {
+        padding-bottom: 5rem;
     }
 
     .project-grid {
