@@ -1,6 +1,5 @@
 .footer-container {
     padding: 0 1rem 2rem;
-
 }
 
 .footer-list {
@@ -44,4 +43,68 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+}
+
+@media only screen and (min-width: 50rem) {
+    .footer-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-list-container {
+       margin-top: auto;
+       padding-bottom: 2rem;
+    }
+
+    .footer-list {
+        padding-top: 0;
+    }
+
+    .footer-company-description-padding {
+        padding-top: 18rem;
+    }
+    
+    .footer-company-contact-padding {
+        padding-top: 5rem;
+    }
+
+    .footer-company-container {
+        padding-left: 20rem;
+    }
+
+    .footer-list-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0;
+        row-gap: 0;
+    }
+    
+    .footer-item-a {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .footer-item-b {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .footer-item-c {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .footer-item-d {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
 }

@@ -1,6 +1,6 @@
 <?php snippet("header") ?>
 
-<body class="home-main">
+<main class="home-main">
     <ul class="project-list">
         <?php foreach ($page->children()->listed() as $item): ?>
             <li class="project-list-item">
@@ -41,6 +41,6 @@
             </li>
         <?php endforeach ?>
     </ul>
-</body>
+</main>
 
 <?php snippet("footer") ?>
