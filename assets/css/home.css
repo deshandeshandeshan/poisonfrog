@@ -1,0 +1,53 @@
+.project-list {
+    padding: 0 1rem;
+}
+
+.project-title {
+    border-style: solid solid none solid;
+}
+
+.project-length {
+    border-style: solid none none;
+}
+
+.project-title-padding, .project-length-padding {
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+.project-camera-used-padding {
+    padding: 2rem 0 6rem;
+}
+
+.project-description-padding {
+    padding-bottom: 1rem;
+}
+
+.project-title-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+}
+
+.project-title-grid-item {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.project-length-grid-item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.project-description-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+}
+
+.project-grid-item-a {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.project-grid-item-b {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
