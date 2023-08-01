@@ -1,5 +1,5 @@
 <footer class="footer-container">
-    <div class="footer-company-container">
+    <div class="footer-company-container footer-company-grid">
         <h2 class="footer-company-description footer-company-description-padding">Poison Frog is an Auckland based
             production
             company interested in capturing &
