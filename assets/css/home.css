@@ -19,7 +19,7 @@
 }
 
 .project-camera-used-padding {
-    padding: 2rem 0 6rem;
+    padding: 2rem 0 2rem;
 }
 
 .project-description-padding {
@@ -62,37 +62,51 @@
 
 @media only screen and (min-width: 50rem) {
     .home-main {
-        padding: 18rem 0 0 20rem;
+        padding: 18rem 0 0;
     }
 
     .project-list-item {
         padding-bottom: 5rem;
     }
 
+    .project-video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+    }
+
+    .project-video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     .project-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
         gap: 1rem;
     }
 
     .project-title-container {
-        grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
     .project-video-container {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 5;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 4;
     }
 
     .project-details-list {
-        grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }
