@@ -4,17 +4,23 @@ sections:
   info:
     type: fields
     fields:
-      title:
+      Title:
         type: text
-      camera used:
+      Cameraused:
         type: text
-      director:
+      FieldTitle1:
         type: text
-      assistant:
+      FieldDescription1:
         type: text
-      lighting:
+      FieldTitle2:
         type: text
-      videolength:
+      FieldDescription2:
         type: text
-      videoembedurl:
+      FieldTitle3:
+        type: text
+      FieldDescription3:
+        type: text
+      Videolength:
+        type: text
+      Videoembedurl:
         type: text
