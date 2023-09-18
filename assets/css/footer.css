@@ -1,134 +1,134 @@
 .footer-container {
-    padding: 0 1rem 2rem;
+  padding: 0 1rem 2rem;
 }
 
 .footer-company-description-padding {
-    padding-top: 15rem;
+  padding-top: 15rem;
 }
 
 .footer-list {
-    padding-top: 15rem;
+  padding-top: 15rem;
 }
 
 .footer-company-contact-padding {
-    padding-top: 8rem;
+  padding-top: 8rem;
 }
 
 .footer-list-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 50%);
-    grid-template-rows: repeat(1, 1fr);
-    row-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 50%);
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 1rem;
 }
 
 .footer-item-a {
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 0;
-    grid-row-end: 1;
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 0;
+  grid-row-end: 1;
 }
 
 .footer-item-b {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 0;
-    grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 0;
+  grid-row-end: 1;
 }
 
 .footer-item-c {
-    grid-column-start: 0;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  grid-column-start: 0;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .footer-item-d {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+@media only screen and (min-width: 61.25rem) {
+  .footer-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-list-container {
+    margin-top: auto;
+  }
+
+  .footer-list {
+    padding-top: 0;
+  }
+
+  .footer-company-description-padding {
+    padding-top: 18rem;
+  }
+
+  .footer-company-contact-padding {
+    padding-top: 0rem;
+  }
+
+  /* .footer-company-container {
+        padding-left: 20rem;
+    } */
+
+  .footer-company-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 26rem auto;
+    column-gap: 0;
+  }
+
+  .footer-company-description {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .footer-company-contact {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .footer-list-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    row-gap: 0;
+  }
+
+  .footer-item-a {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-}
+  }
 
-@media only screen and (min-width: 50rem) {
-    .footer-container {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
+  .footer-item-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .footer-list-container {
-       margin-top: auto;
-    }
+  .footer-item-c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 
-    .footer-list {
-        padding-top: 0;
-    }
-
-    .footer-company-description-padding {
-        padding-top: 18rem;
-    }
-    
-    .footer-company-contact-padding {
-        padding-top: 0rem;
-    }
-
-    /* .footer-company-container {
-        padding-left: 20rem;
-    } */
-
-    .footer-company-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 26rem auto;
-        column-gap: 0;
-    }
-
-    .footer-company-description {
-        grid-column-start: 3;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .footer-company-contact {
-        grid-column-start: 3;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    .footer-list-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr;
-        row-gap: 0;
-    }
-    
-    .footer-item-a {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .footer-item-b {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .footer-item-c {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    
-    .footer-item-d {
-        grid-column-start: 4;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+  .footer-item-d {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
 }

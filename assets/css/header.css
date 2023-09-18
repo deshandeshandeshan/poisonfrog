@@ -1,24 +1,24 @@
 .logo {
-    display: block;
-    height: 6rem;
-    margin: 0 auto;
+  display: block;
+  height: 6rem;
+  margin: 0 auto;
 }
 
 .header {
-    padding: 2rem 1rem 0;
-    height: 100vh;
+  padding: 2rem 1rem 0;
+  height: 100vh;
 }
 
 .logo-content-padding {
-    padding-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 
 .header-location-text {
-    padding-bottom: 7rem;
+  padding-bottom: 7rem;
 }
 
-@media only screen and (min-width: 50rem) {
-    .header {
-        position: fixed;
-    }
+@media only screen and (min-width: 61.25rem) {
+  .header {
+    position: fixed;
+  }
 }
