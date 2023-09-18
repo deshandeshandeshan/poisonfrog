@@ -16,7 +16,9 @@
 
 <header class="header">
     <div class="logo-container logo-content-padding">
-        <img class="logo" src="content/home/PoisonFrogLogoLockup.png" alt="Frog foot illustration with text" />
+    <?php if($image = $page->image('PoisonFrogLogoLockup.png')): ?>
+    <img class="logo" src="<?= $image->url() ?>" alt="">
+    <?php endif ?>
     </div>
     <div class="header-text">
         <h2 class="header-location-text">Auckland, New zealand</h2>
