@@ -2,6 +2,21 @@
   padding: 0 1rem;
 }
 
+.project-video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.project-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .project-list-item {
   padding-bottom: 10rem;
 }
@@ -69,12 +84,6 @@
 
   .project-list-item {
     padding-bottom: 10rem;
-  }
-
-  .project-video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
   }
 
   .project-video-container iframe {
