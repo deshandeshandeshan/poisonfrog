@@ -1,8 +1,7 @@
 title: Project
 
 columns:
-  main:
-    width: 1/2
+  - width: 1/2
     sections:
       info:
         type: fields
@@ -23,6 +22,12 @@ columns:
             type: text
           FieldDescription3:
             type: text
+
+  - width: 1/2
+    sections:
+      video:
+        type: fields
+        fields:
           Videolength:
             type: text
           Videoembedurl:
