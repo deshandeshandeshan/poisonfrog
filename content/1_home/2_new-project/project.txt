@@ -2,11 +2,11 @@ Title: New project
 
 ----
 
-Cameraused: avaeveav
+Cameraused: Kodak
 
 ----
 
-Fieldtitle1: Director:
+Fieldtitle1: Director
 
 ----
 
@@ -14,7 +14,7 @@ Fielddescription1: Nejat
 
 ----
 
-Fieldtitle2: Assistant:
+Fieldtitle2: Assistant
 
 ----
 
@@ -22,7 +22,7 @@ Fielddescription2: Shival Patel
 
 ----
 
-Fieldtitle3: Lighting:
+Fieldtitle3: Lighting
 
 ----
 

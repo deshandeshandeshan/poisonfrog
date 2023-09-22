@@ -6,27 +6,27 @@ Cameraused: Arri Super colour
 
 ----
 
-FieldTitle1: Director:
+Fieldtitle1: Director
 
 ----
 
-FieldDescription1: Nejat
+Fielddescription1: Nejat
 
 ----
 
-FieldTitle2: Assistant:
+Fieldtitle2: Assistant
 
 ----
 
-FieldDescription2: Shival Patel
+Fielddescription2: Shival Patel
 
 ----
 
-FieldTitle3: Lighting:
+Fieldtitle3: Lighting
 
 ----
 
-FieldDescription3: Aitken Hawkins
+Fielddescription3: Aitken Hawkins
 
 ----
 
