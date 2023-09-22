@@ -1,6 +1,8 @@
-title: Home
+title: Projects
 
 sections:
   projects:
     type: pages
     layout: cards
+    templates:
+      - project
